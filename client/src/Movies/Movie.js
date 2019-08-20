@@ -38,7 +38,7 @@ export default class Movie extends React.Component {
   
   render() {
     if(!this.state.movie) {
-      return <div>Loading movie information...</div>
+      return <div>Grabbing Movies</div>
     }
     
     return (
